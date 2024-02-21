@@ -1,0 +1,25 @@
+/* Define the keyframes for the glowing effect */
+@keyframes glow {
+  0% {
+    background-color: gray; /* Initial background color */
+    
+  }
+  50% {
+    background-color: gray; /* Intermediate background color */
+   
+    background-color: gray; /* Final background color */
+  
+}
+}
+.g{
+  line-height: 20rem;
+}
+/* Apply the glowing effect to the h1 tag */
+h2 {
+ 
+  animation: glow 2s infinite; /* Use the glow animation with a duration of 2 seconds and repeat infinitely */
+  text-align: center; /* Center the text within the h1 element */
+}
+.ite{
+  align-items: center;
+}

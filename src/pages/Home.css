@@ -1,0 +1,31 @@
+@keyframes glowAndSpin {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+    transform: rotate(0deg);
+  }
+  25% {
+    box-shadow: 0 0 50px rgba(255, 0, 21, 0.8);
+    transform: rotate(90deg);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 21, 0.8);
+    transform: rotate(180deg);
+  }
+  75% {
+    box-shadow: 0 0 50px rgba(255, 0, 21, 0.8);
+    transform: rotate(270deg);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 0, 21, 0.8);
+    transform: rotate(360deg);
+  }
+}
+
+.glow-and-spin {
+  animation: glowAndSpin 2s steps(4) infinite;
+}
+.h{
+  text-align: center;
+} .footer{
+  text-align: center;
+}
