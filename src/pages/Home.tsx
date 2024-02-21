@@ -9,7 +9,7 @@ export const Home: React.FC = () => {
     <Container fluid className="d-flex flex-column justify-content-center align-items-center">
     
      <div className="glow-and-spin">
-      <img src="imgs/log.PNG"
+      <img src="/git-new/imgs/logoSpinner.PNG"
         alt="logo"
         style={{ width: '200px', height: '200px', margin: '0 auto' }}
         className="mx-auto"
